@@ -2,7 +2,7 @@
 
 Summary:
 
-This project demonstrates the fine-tuning of a YOLOv5 model for object detection using a custom dataset. The process begins with preparing a labeled dataset in the YOLO format, which is then split into training and validation sets. A pre-trained YOLO model is used as the base for fine-tuning on the custom dataset. The model is trained for 50 epochs, with the training and validation data configured through a YAML file. After training, the model is saved for future use and deployed to make predictions on new images.
+This project demonstrates the fine-tuning of a YOLOv11 model for object detection using a custom dataset. The process begins with preparing a labeled dataset in the YOLO format, which is then split into training and validation sets. A pre-trained YOLO model is used as the base for fine-tuning on the custom dataset. The model is trained for 50 epochs, with the training and validation data configured through a YAML file. After training, the model is saved for future use and deployed to make predictions on new images.
 
 Dataset:
 
@@ -12,7 +12,7 @@ Model Training:
 
 The fine-tuning process involved the following:
 
-Pre-trained Model: The YOLOv5 model (yolo11n.pt) was used as the base model for training.
+Pre-trained Model: The YOLOv11 model was used as the base model for training.
 Epochs: The model was trained for 50 epochs with a batch size of 16 and an image size of 640 pixels.
 Configuration: A custom data.yaml file was created, specifying the dataset paths, number of classes, and class names.
 
@@ -27,4 +27,4 @@ The model's performance demonstrated the ability to accurately predict object lo
 
 Conclusion:
 
-The fine-tuned YOLOv5 model is now capable of performing object detection on images containing objects from the specified classes. The results indicate that the model is effective for detecting and classifying objects based on the custom dataset. Future work may involve further refinement of the model or testing on additional datasets to improve accuracy.
+The fine-tuned YOLOv11 model is now capable of performing object detection on images containing objects from the specified classes. The results indicate that the model is effective for detecting and classifying objects based on the custom dataset. Future work may involve further refinement of the model or testing on additional datasets to improve accuracy.
